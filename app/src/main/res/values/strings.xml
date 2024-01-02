@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TabooGameProject</string>
+    <string name="secretTaboo">SECRET TABOO</string>
+    <string name="startToPlay">Start To Play</string>
+    <string name="team1">TEAM 1</string>
+    <string name="team2">TEAM 2</string>
+    <string name="start">START</string>
+    <string name="gameIsOver">Game is finished!</string>
+    <string name="ok">OK</string>
+    <string name="congratulations">CONGRATULATIONS!</string>
+    <string name="playAgain">PLAY AGAIN</string>
+    <string name="team1IsWinner">TEAM 1 is winner</string>
+    <string name="team2IsWinner">TEAM 2 is winner</string>
+
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoosingScreen"
+    android:orientation="vertical"
+    android:layout_marginBottom="40dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/taboo_logo"
+                android:gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/team1"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="@drawable/team1_button_background"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textTakim1Skor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"
+                android:textColor="@color/blue"
+                android:text="0"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/team2"
+                android:textSize="36sp"
+                android:textColor="@color/white"
+                android:background="@drawable/team2_button_background"/>
+
+            <TextView
+                android:id="@+id/textTakim2Skor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"
+                android:textColor="@color/orange"
+                android:text="0"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:text="@string/start"
+                android:textSize="26sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_background"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
